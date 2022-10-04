@@ -7,11 +7,13 @@ import pandas as pd
 import math
 import altair as alt
 
-
+st.title=("TEST")
 
 @st.experimental_singleton
 def setup():
   st.set_page_config(page_title='Streamlit - Dashboard 🤯',
                     page_icon="🚀",
                     layout='wide')
+  
+
 
